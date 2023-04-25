@@ -51,7 +51,7 @@ function App() {
     s. Ponderosa Pines are easily recognized by their tall, straight, thick trunks, clad in scaled, rusty-orange bark that has split into big plates. One can easily identify some trees by smelling their bark. Ponderosa Pine bark smells like vanilla or butterscotch.
     The 4-8 inch long evergreen needles, thick and flexible, three to a bundle, droop gracefully from their branches. Large trees live for 500 or more years.
     Native Americans ate the seeds of this tree either raw or made into a bread and used the pitch as adhesive and waterproofing agent for canoes, baskets and tents. Ponderosa Pine lumber is highly valued for constructing cabinets, Southwestern-style furniture and house trim.
-    </p>
+    feefaf</p>
  </body>   
  </>
   )
