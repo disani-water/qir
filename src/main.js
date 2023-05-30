@@ -11,7 +11,6 @@ const tree = {
     deciduous: 'https://www.google.com/search?q=deciduous&rlz=1C1SQJL_enUS919US919&oq=deciduous&aqs=chrome..69i57j0i433i512l5j0i512j0i433i512l2j0i433i457i512.14936j1j7&sourceid=chrome&ie=UTF-8',
     img: 'https://media.istockphoto.com/id/155097073/photo/old-beech-tree-in-summer.jpg?s=612x612&w=0&k=20&c=cTuBEG1nIVC9FAlwSpIAbUxUc_QSUgUzjWDFzYA_8ek=',
     aspen: 'https://unsplash.com/photos/NrTA2WmSHuU',
-    
     cypress: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiBIj5MhVxpDJMfCxnYVY6ha777z2us_Nm_u9qR_wtFp7uwci5l5hB4e1Z27PNBU6UXA&usqp=CAU',
     };
    
@@ -23,13 +22,12 @@ export default function Main () {
 return (
     
 <>
-<div>
-<img scr={tree.aspen} alt="quaking aspen"/>
-</div>
+
+
  <Container fluid style={{ transform:'translateY(125vh)'}}>
       <Row xl={{ offset: 1}}> 
        <Col xl={{ offset: 1}}>
-       <hr class="featurette-divider"/>
+       <hr />
     <h1 id='qa'> Quaking Aspen </h1>
     <p > 
     Populus tremuloides also know as the Quaking Aspen is an <a className="a" href={tree.deciduous}>deciduous</a> tree native to North America. 
@@ -42,14 +40,17 @@ return (
     </p>  
        </Col>
        <Col>
-       
+       <img src={require('./quaking.jpg')} />
+
+
        </Col>
       </Row>
 
       <Row style={{ transform:'translateY(25vh)'}}>
       <Col xl={{offset: 1}}> 
+      <hr/>
       <h1 id='pp'> Ponderosa pine </h1>
-      <hr class="featurette-divider"/>
+      
     <p> Pinus ponderosa is one of the Southwest's tallest trees in many parts of its range, growing to incredible heights of over 200 feet, with huge trunks 3-4 feet
     s. Ponderosa Pines are easily recognized by their tall, straight, thick trunks, clad in scaled, rusty-orange bark that has split into big plates. One can easily identify some trees by smelling their bark. Ponderosa Pine bark smells like vanilla or butterscotch.
     The 4-8 inch long evergreen needles, thick and flexible, three to a bundle, droop gracefully from their branches. Large trees live for 500 or more years.

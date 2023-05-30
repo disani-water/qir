@@ -37,7 +37,7 @@ nav {
     display: inline-block;
     position: relative;
     color: white;
-    align-items: right;
+    align-items: center;
   }
   
   .underline:after {
